@@ -1,0 +1,4 @@
+pwd
+
+cd /d/MyGitProject/typing-speed-test
+
