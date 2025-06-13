@@ -1,0 +1,122 @@
+*{
+    color: white;
+}
+
+
+.settings-container {
+  position: relative;
+}
+.manage-settings-btn {
+  display: none;
+}
+span{
+    display : inline-block;
+    margin-left: 0.9vw;
+    margin-right: 0.9vw;
+}
+body{
+    background-color: #3b3b3c;
+}
+.bar{
+    background-color: #16202b;
+    display : block;
+    width:77.16% ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.19vw;
+    /* font-size: 16px; */
+    border-radius: 15px;
+    /* padding-left: 2cm;
+    padding-right: 50cqi; */
+    padding: 5px; 
+    /* justify-content: ; */
+}
+.dropdown-settings {
+  display: none;
+  position: absolute;
+  background-color: #4b4b4d;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.dropdown-settings span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.show-dropdown {
+  display: block;
+}
+h1{
+    display: block;
+    width: fit-content;
+    margin-left: 60px;
+    color: #f2f2f2;
+}
+p{
+  color: #9c9c9c;
+
+ }
+.typetext{
+  font-family:monospace, bold;
+  font-size: 25px;
+  width: 80%;
+  text-align: justify;
+  margin: 60px auto 70px;
+  line-height: 40px;
+}
+
+/*Creating problem*/
+.input-overlay {
+  font-family:monospace, bold;
+  font-size: 25px;
+  width: 80%;
+  text-align: justify;
+  /* margin: auto; */
+  line-height: 40px;
+
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  font-size: 25px;
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  caret-color: transparent;
+  color: blue;
+  z-index: 2;
+}
+
+    .custom-caret {
+      position: absolute;
+      margin-top: 6px;
+      width: 2px;
+      height: 25px;
+      background: white;
+      transition: left 0.1s linear;
+      animation: blink 1s step-end infinite;
+    } 
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+@media (max-width: 480px) {
+  .bar {
+    display: none;
+
+  }
+  .manage-settings-btn {
+    margin-left: 10px;
+    display: block;
+    background-color: hsl(240, 100%, 98%);
+    color: #3b3b3c; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .dropdown-settings{
+    font-size: 2vw;
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+}

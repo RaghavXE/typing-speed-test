@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeAce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <img src="">
+    <h1>TypeAce</h1>
+    <div class="settings-container">
+    <div class="bar">
+        <span id="punc"><b>@</b> punctuation</span>
+        <span id="num">#️⃣ numbers</span>
+        <span id="time">🕑 time</span>
+        <span id="words"><b>A</b> Words</span>
+        <span id="quote">"" quote</span>
+        <span id="zen">🔼 zen</span>
+        <span id="custom">🔧 custom</span>
+        <span id="t15">15</span>
+        <span id="t30">30</span>
+        <span id="t60">60</span>
+        <span id="t120">120</span>
+        <span id="cust">🛠️</span>
+    </div>
+    <button class="manage-settings-btn" onclick="toggleDropdown()">Manage settings</button>
+    <div class="dropdown-settings" id="dropdown-settings">
+    <span id="punc"><b>@</b> punctuation</span>
+    <span id="num">#️⃣ numbers</span>
+    <span id="time">🕑 time</span>
+    <span id="words"><b>A</b> Words</span>
+    <span id="quote">"" quote</span>
+    <span id="zen">🔼 zen</span>
+    <span id="custom">🔧 custom</span>
+    <span id="t15">15</span>
+    <span id="t30">30</span>
+    <span id="t60">60</span>
+    <span id="t120">120</span>
+    <span id="cust">🛠️</span>
+  </div>
+    </div>
+    <!-- <div class="typetext">
+        <p>A witch is a good craft person who fulfills the bad wishes  are mainly used to assign different styles to different parts of your document  and the good low key weapons are the best among those wishes is just a generic inline element  are mainly used to assign different styles to different parts of your document</p>
+        </div> -->
+    
+    <div class="typetext" id="text">
+        <input type="text" id="input-field" class="input-overlay" spellcheck="false" />
+        <div class="custom-caret" id="caret"></div>
+    <p>A witch is a good craft person who fulfills the bad wishes  are mainly used to assign different styles to different parts of your document  and the good low key weapons are the best among those wishes is just a generic inline element  are mainly used to assign different styles to different parts of your document</p>
+
+  </div>
+
+</body>
+</html>
